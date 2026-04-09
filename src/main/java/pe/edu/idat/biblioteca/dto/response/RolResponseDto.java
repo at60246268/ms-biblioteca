@@ -1,4 +1,4 @@
-﻿package pe.edu.idat.biblioteca.dto.response;
+package pe.edu.idat.biblioteca.dto.response;
 
 public record RolResponseDto(
         Long idRol,

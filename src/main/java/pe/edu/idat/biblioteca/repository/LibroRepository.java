@@ -1,4 +1,4 @@
-﻿package pe.edu.idat.biblioteca.repository;
+package pe.edu.idat.biblioteca.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 import pe.edu.idat.biblioteca.entity.Libro;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface LibroRepository extends JpaRepository<Libro, Long>
@@ -18,5 +19,7 @@ public interface LibroRepository extends JpaRepository<Libro, Long>
 
     @Query("SELECT l FROM Libro l WHERE UPPER(l.autor) LIKE UPPER(CONCAT('%', :autor, '%')) AND l.estado = :estado")
     List<Libro> findByAutorContainingIgnoreCaseAndEstado(@Param("autor") String autor, @Param("estado") Integer estado);
+
+    Optional<Libro> findByIsbn(String isbn);
 }
 

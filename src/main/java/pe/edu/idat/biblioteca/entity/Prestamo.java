@@ -1,4 +1,4 @@
-﻿package pe.edu.idat.biblioteca.entity;
+package pe.edu.idat.biblioteca.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

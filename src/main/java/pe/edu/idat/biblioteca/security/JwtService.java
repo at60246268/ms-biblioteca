@@ -1,4 +1,4 @@
-﻿package pe.edu.idat.biblioteca.security;
+package pe.edu.idat.biblioteca.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

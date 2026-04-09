@@ -1,4 +1,4 @@
-﻿package pe.edu.idat.biblioteca.exception;
+package pe.edu.idat.biblioteca.exception;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.http.HttpStatus;

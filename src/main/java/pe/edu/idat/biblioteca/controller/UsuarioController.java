@@ -1,4 +1,4 @@
-﻿package pe.edu.idat.biblioteca.controller;
+package pe.edu.idat.biblioteca.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

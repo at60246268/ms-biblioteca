@@ -1,4 +1,4 @@
-﻿package pe.edu.idat.biblioteca.security;
+package pe.edu.idat.biblioteca.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
